@@ -39,7 +39,7 @@ Fourteen gallery projects exist:
 13. `olive-tailoring` (Video and Fashion): 13 s vertical studio lookbook video, olive suit and gold earrings, uploaded by the owner. Olive Tailoring is a working title; no brand or tool confirmed. Audio kept.
 14. `golden-departure` (Product and Fashion): menswear series with a leather messenger bag at a private jet at sunset, inspired by Polo Ralph Lauren, photos supplied by the owner. Golden Departure is a working title; no tool confirmed. Placed after the other photo projects, before the videos. 4 photos in supplied order: walk to the jet (cover), leather label detail, smiling portrait, lifting the bag at the airstairs.
 
-`data-category` can contain multiple space-separated categories. Keep filtering compatible with this. Upload video as H.264 MP4 with `+faststart`.
+Portfolio tabs (owner request): there is no "Vše/All" button. Three tabs — Product & Beauty (default), Fashion, Video — and each project belongs to exactly one tab so nothing repeats: product = lime-shot, sky-and-sand, honey-drip; fashion = clay-court-summer, soft-structure, daisy-meadow, golden-departure; video = all video projects. The category descriptions in the list above describe content, not the tab. `showCategory()` sets `hidden` and `aria-pressed`; a `#slug` hash opens the right tab and scrolls to the card. `data-category` may still hold several space-separated values; the first one is used for hash navigation. Upload video as H.264 MP4 with `+faststart`.
 
 ## Pricing (Kč)
 
