@@ -59,6 +59,10 @@ Monthly packages (names and contents chosen with the owner; she asked for more h
 
 PŘÍBĚH is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Delivery: up to 2 working days depending on complexity (owner statement; shown in `.pricing-perks`, process step 03 and terms intro). Portfolio note: more work is shown during the first conversation or video call. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Package item keys follow `package{n}item{k}` with k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s.
 
+## About copy
+
+Owner-supplied facts for the About section: Eva is 25, an AI creator in Prague and a curator of the Czech AI course "AI New Era"; she values realism and avoiding generic "AI slop". The copy is a hook-led lead (`aboutLead`), two body paragraphs, a punch line and three fact chips. Do not add other achievements.
+
 ## Content constraints
 
 The owner wants AI disclosure and independent concepts presented accurately. Preserve current AI labels and AI & Transparency copy. Do not imply that the featured brands commissioned, sponsored or endorsed the concepts. Do not invent client names, client relationships, outcomes, testimonials, portfolio tools or creator achievements. Preserve supplied images and their proportions.
