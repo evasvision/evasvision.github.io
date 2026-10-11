@@ -57,7 +57,7 @@ Monthly packages (names and contents chosen with the owner; she asked for more h
 | PŘÍBĚH | 13,400 | 15 associative photos + 6 hero/model photos + 1 video up to 15 s + 1 video up to 30 s | 15,850 | 2,450 (15.5%) |
 | VIZE | 22,900 | 25 associative photos + 9 hero/model photos + 2 videos up to 30 s + 1 video up to 60 s | 27,400 | 4,500 (16.4%) |
 
-PŘÍBĚH is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Package item keys follow `package{n}item{k}` with k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s.
+PŘÍBĚH is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Delivery: up to 2 working days depending on complexity (owner statement; shown in `.pricing-perks`, process step 03 and terms intro). Portfolio note: more work is shown during the first conversation or video call. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Package item keys follow `package{n}item{k}` with k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s.
 
 ## Content constraints
 
