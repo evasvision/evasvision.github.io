@@ -52,3 +52,5 @@ The owner wants AI disclosure and independent concepts presented accurately. Pre
 For edits, check JavaScript syntax, both language dictionaries including alt-text, local asset paths, anchor targets and changed behavior. For visual/layout work, check mobile and desktop in a browser when available. No browser visual QA was performed before this export.
 
 This export has no original Git history, hosting configuration or credentials. It does not automatically update the existing hosted site. Keep changes local until the owner requests deployment through an available hosting workflow.
+
+GitHub Pages: the repository `evasvision/evasvision.github.io` deploys `dist/` via `.github/workflows/pages.yml` on pushes to `main` (Pages source must be set to GitHub Actions). All asset paths are relative, so the site works from the domain root. Note: the initial GitHub upload flattened files and lost the four Clay Court Summer images whose names collide with Soft Structure (`portrait`, `portrait-small`, `overhead`, `overhead-small` .webp); they must be re-uploaded to `dist/assets/clay-court-summer/` (checksums in EXPORT.json).
