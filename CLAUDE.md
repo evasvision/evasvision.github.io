@@ -20,13 +20,14 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. Gallery cards link to native details elements. Lightbox is a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration. Image links fall back to opening the full-resolution image if the lightbox is unavailable.
 
-Four gallery projects exist:
+Five gallery projects exist:
 
 1. `clay-court-summer` (Fashion): Clay Court Summer, independently conceived AI editorial inspired by Alo Yoga, made with Nano Banana. Description from the owner's supplied info.md. Cover is the portrait with a tennis racket, then fabric close-up and playful overhead shot. All 3 photos are included.
 2. `soft-structure` (Product and Fashion): cream bag with chocolate-brown tailoring. Soft Structure is a working title assigned during upload; no brand or tool has been confirmed. Cover is the portrait in the mountain landscape, then product in motion and overhead view on stone steps. All 3 photos are included.
 
 3. `ahoj-europe` (Video and Product & Beauty): 12 s vertical beauty video inspired by rhode, uploaded by the owner. "Ahoj, Europe" is a working title taken from the note in the final shot; no tool has been confirmed. Files in `assets/ahoj-europe/`: `ahoj-europe.mp4` (1080×1920, 30 fps, H.264, no audio — the source audio track was silent) for the details player, `ahoj-europe-small.mp4` (720×1280) for the card cover, plus `poster.webp`/`poster-small.webp`. The cover video autoplays muted only while visible and never under prefers-reduced-motion. `data-t-label` binds translated aria-labels.
 4. `lime-shot` (Product & Beauty): eye booster series inspired by celimax Retinal Shot, photos supplied by the owner. Lime Shot is a working title assigned during upload; no tool has been confirmed. Cover is the beauty portrait with two tubes, then the street shot (white pumps visible, disclosure also covers other depicted brands), then the tentacle product still life. All 3 photos are included; the street photo is 1120×1500, the others 1493×2000.
+5. `daisy-meadow` (Fashion): kidswear editorial in a daisy meadow, photos supplied by the owner. Daisy Meadow is a working title assigned during upload; no brand or tool has been confirmed. Cover is the smiling portrait looking back, then the bouquet with straw hat, then the embroidered cardigan detail. All 3 photos are included (1493×2000).
 
 `data-category` can contain multiple space-separated categories. Keep filtering compatible with this. Upload video as H.264 MP4 with `+faststart`.
 
