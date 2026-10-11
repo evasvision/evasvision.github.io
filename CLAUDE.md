@@ -43,19 +43,19 @@ Fourteen gallery projects exist:
 
 ## Pricing (Kč)
 
-Individual services: associative photo 450; hero/model photo 750; video up to 15 s 1,850; up to 30 s 2,750; up to 60 s 3,900; carousel of up to 5 slides 850.
+Individual services: associative photo 450; hero/model photo 750; video up to 15 s 1,850; up to 30 s 2,750; up to 60 s 3,900. Carousels were removed from the offer at the owner's request (no carousel unit price, package item or FAQ).
 
-Monthly packages:
+Monthly packages (names and contents chosen with the owner; she asked for more hero/model photos in each package):
 
 | Package | Price | Contents | Individual total | Saving |
 | --- | ---: | --- | ---: | ---: |
-| ZÁKLAD | 6,200 | 10 associative photos + 2 hero/model photos + 1 carousel | 6,850 | 650 (9.5%) |
-| FOTO | 7,300 | 12 associative photos + 4 hero/model photos | 8,400 | 1,100 (13.1%) |
-| VIDEO | 7,900 | 2 videos up to 15 s + 2 videos up to 30 s | 9,200 | 1,300 (14.1%) |
-| VÝHODA | 12,000 | 15 associative photos + 4 hero/model photos + 1 video up to 30 s + 2 carousels | 14,200 | 2,200 (15.5%) |
-| VIZE | 21,000 | 28 associative photos + 6 hero/model photos + 2 videos up to 30 s + 3 carousels | 25,150 | 4,150 (16.5%) |
+| ZÁBLESK | 6,950 | 8 associative photos + 3 hero/model photos + 1 video up to 15 s | 7,700 | 750 (9.7%) |
+| RÁMEC | 8,600 | 12 associative photos + 6 hero/model photos | 9,900 | 1,300 (13.1%) |
+| POHYB | 8,900 | 2 videos up to 15 s + 1 video up to 30 s + 1 video up to 60 s | 10,350 | 1,450 (14.0%) |
+| PŘÍBĚH | 13,400 | 15 associative photos + 6 hero/model photos + 1 video up to 15 s + 1 video up to 30 s | 15,850 | 2,450 (15.5%) |
+| VIZE | 22,900 | 25 associative photos + 9 hero/model photos + 2 videos up to 30 s + 1 video up to 60 s | 27,400 | 4,500 (16.4%) |
 
-VÝHODA is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Carousel is design/sequence/short copy using finished photos, not five additional photo generations.
+PŘÍBĚH is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Package item keys follow `package{n}item{k}` with k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s.
 
 ## Content constraints
 
