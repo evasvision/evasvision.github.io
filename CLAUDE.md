@@ -20,7 +20,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. Gallery cards link to native details elements. Lightbox is a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration. Image links fall back to opening the full-resolution image if the lightbox is unavailable.
 
-Nine gallery projects exist:
+Eleven gallery projects exist:
 
 1. `clay-court-summer` (Fashion): Clay Court Summer, independently conceived AI editorial inspired by Alo Yoga, made with Nano Banana. Description from the owner's supplied info.md. Cover is the portrait with a tennis racket, then fabric close-up and playful overhead shot. All 3 photos are included.
 2. `soft-structure` (Product and Fashion): cream bag with chocolate-brown tailoring. Soft Structure is a working title assigned during upload; no brand or tool has been confirmed. Cover is the portrait in the mountain landscape, then product in motion and overhead view on stone steps. All 3 photos are included.
@@ -32,6 +32,8 @@ Nine gallery projects exist:
 7. `honey-drip` (Product & Beauty): hair mask series inspired by Gisou Honey Gloss, photos supplied by the owner. Honey Drip is a working title assigned during upload; no tool has been confirmed. Cover is the jar on ice cream with honey drip, then the jar in a clear bag with honeycomb, then the layered hearts with arrows. All 3 photos are included (1493×2000).
 8. `wild-silk` (Video and Fashion): 12 s vertical fashion video, white silk dress on a wild misty coast, uploaded by the owner. Wild Silk is a working title; no brand or tool confirmed. Same video structure as `ahoj-europe`, but the details player keeps the original audio (AAC 128 kbps); the card cover file has no audio.
 9. `elegance-v-pohybu` (Video and Fashion): 15 s vertical ballet video ending with the on-screen text "Elegance v pohybu", used as the title; uploaded by the owner, no brand or tool confirmed. Audio kept in the details player as for `wild-silk`.
+10. `orange-hour` (Video and Fashion): 13 s vertical summer video in orange tones inspired by Alo, uploaded by the owner. Orange Hour is a working title; no tool confirmed. Audio kept.
+11. `clover-gold` (Video and Product & Beauty): 14 s horizontal 16:9 jewellery video inspired by Dior clover earrings, uploaded by the owner. Clover Gold is a working title; no tool confirmed. Audio kept. The details player uses `.project-video.landscape` (16:9, max 720px); the card cover crops the 16:9 clip to the card ratio.
 
 `data-category` can contain multiple space-separated categories. Keep filtering compatible with this. Upload video as H.264 MP4 with `+faststart`.
 
