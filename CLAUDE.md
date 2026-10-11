@@ -20,7 +20,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. Gallery cards link to native details elements. Lightbox is a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration. Image links fall back to opening the full-resolution image if the lightbox is unavailable.
 
-Thirteen gallery projects exist:
+Fourteen gallery projects exist:
 
 1. `clay-court-summer` (Fashion): Clay Court Summer, independently conceived AI editorial inspired by Alo Yoga, made with Nano Banana. Description from the owner's supplied info.md. Cover is the portrait with a tennis racket, then fabric close-up and playful overhead shot. All 3 photos are included.
 2. `soft-structure` (Product and Fashion): cream bag with chocolate-brown tailoring. Soft Structure is a working title assigned during upload; no brand or tool has been confirmed. Cover is the portrait in the mountain landscape, then product in motion and overhead view on stone steps. All 3 photos are included.
@@ -36,6 +36,7 @@ Thirteen gallery projects exist:
 11. `clover-gold` (Video and Product & Beauty): 14 s horizontal 16:9 jewellery video inspired by Dior clover earrings, uploaded by the owner. Clover Gold is a working title; no tool confirmed. Audio kept. The details player uses `.project-video.landscape` (16:9, max 720px); the card cover crops the 16:9 clip to the card ratio.
 12. `prague-pour` (Video and Product & Beauty): 10 s vertical video of an AI billboard on a Prague corner building, inspired by Kilian Paris Angels' Share; uploaded by the owner (file name suggests Higgsfield, not confirmed by the owner, so no tool is stated). Prague Pour is a working title. Disclosure states the billboard is AI-generated and not a real campaign. Audio kept.
 13. `olive-tailoring` (Video and Fashion): 13 s vertical studio lookbook video, olive suit and gold earrings, uploaded by the owner. Olive Tailoring is a working title; no brand or tool confirmed. Audio kept.
+14. `golden-departure` (Product and Fashion): menswear series with a leather messenger bag at a private jet at sunset, inspired by Polo Ralph Lauren, photos supplied by the owner. Golden Departure is a working title; no tool confirmed. Placed after the other photo projects, before the videos. 4 photos in supplied order: walk to the jet (cover), leather label detail, smiling portrait, lifting the bag at the airstairs.
 
 `data-category` can contain multiple space-separated categories. Keep filtering compatible with this. Upload video as H.264 MP4 with `+faststart`.
 
