@@ -13,6 +13,8 @@ Read `index.html` before editing. New translations are added with `Object.assign
 - Eva’s Vision, Prague; Instagram: https://www.instagram.com/evas_vision/ (current site contact).
 - Minimal editorial aesthetic with cream #fbf5ef, chocolate #51372d, blush #bd8e83 and line #d9c9bd.
 - Headings: Instrument Serif. Body: Manrope. Fonts are served locally.
+- Large section titles (h1/h2) have no trailing periods (owner request); mid-title sentence breaks use `<br>`.
+- Section intro text (`.heading > p`) sits under the title, not in a right-hand column (the owner found that empty-looking): 17px, max 560px, thin blush left rule with a small ✦.
 - Realistic blush-cosmos flower asset for rounded call-to-action buttons and click particles.
 - Preserve responsive layouts, keyboard focus styles, lazy loading and prefers-reduced-motion behavior.
 - Living background (owner request): a fixed `.ambient` layer behind all content with four slowly drifting blush/cream radial-gradient blobs (CSS keyframes, no `filter: blur` — it dropped software rendering to ~13 fps) and a `#ambient-dust` canvas of rising, twinkling sparkles (≤70) and slowly falling, tumbling blush petals (7–18), DPR capped at 2, frame-rate independent, paused when the tab is hidden. The first version was too subtle for the owner to notice; blobs were made more saturated (opacity .9) and faster (17–28 s loops). Under prefers-reduced-motion the blobs are static and the canvas is hidden.
