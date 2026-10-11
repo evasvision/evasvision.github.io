@@ -4,9 +4,9 @@
 
 This is the exported source of Eva’s Vision, a bilingual Czech/English AI creator portfolio. The owner communicates in Russian. Work directly on this existing static site and preserve its current design unless the owner requests a redesign.
 
-There is no framework, build pipeline, backend, dependency install or database. The deployable site is `dist/`. The authoritative source is `dist/index.html`: embedded CSS, HTML, Czech/English `copy` dictionaries and vanilla JavaScript. `dist/fonts.css` and `dist/assets/` are local assets. Serve with `python3 -m http.server 8000 --directory dist` from the project root.
+There is no framework, build pipeline, backend, dependency install or database. The deployable site is the repository root (GitHub Pages). The authoritative source is `index.html`: embedded CSS, HTML, Czech/English `copy` dictionaries and vanilla JavaScript. `fonts.css` and `assets/` are local assets. Serve with `python3 -m http.server 8000` from the project root.
 
-Read `dist/index.html` before editing. New translations are added with `Object.assign(copy.cs, ...)` and `Object.assign(copy.en, ...)` before `setLanguage`. `data-t` binds translated content, `data-alt` binds image descriptions. Keep every referenced key present in both languages. Language preference uses localStorage.
+Read `index.html` before editing. New translations are added with `Object.assign(copy.cs, ...)` and `Object.assign(copy.en, ...)` before `setLanguage`. `data-t` binds translated content, `data-alt` binds image descriptions. Keep every referenced key present in both languages. Language preference uses localStorage.
 
 ## Brand
 
@@ -52,3 +52,5 @@ The owner wants AI disclosure and independent concepts presented accurately. Pre
 For edits, check JavaScript syntax, both language dictionaries including alt-text, local asset paths, anchor targets and changed behavior. For visual/layout work, check mobile and desktop in a browser when available. No browser visual QA was performed before this export.
 
 This export has no original Git history, hosting configuration or credentials. It does not automatically update the existing hosted site. Keep changes local until the owner requests deployment through an available hosting workflow.
+
+GitHub Pages: the repository `evasvision/evasvision.github.io` is published by GitHub Pages directly from the root of `main` (Deploy from a branch; `.nojekyll` disables Jekyll). The original export kept the site in `dist/`; it was moved to the root for Pages. EXPORT.json paths still use the `dist/` prefix. All asset paths are relative, so the site works from the domain root. Note: the initial GitHub upload flattened files and lost the four Clay Court Summer images whose names collide with Soft Structure (`portrait`, `portrait-small`, `overhead`, `overhead-small` .webp); they must be re-uploaded to `assets/clay-court-summer/` (checksums in EXPORT.json).
