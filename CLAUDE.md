@@ -75,4 +75,6 @@ For edits, check JavaScript syntax, both language dictionaries including alt-tex
 
 This export has no original Git history, hosting configuration or credentials. It does not automatically update the existing hosted site. Keep changes local until the owner requests deployment through an available hosting workflow.
 
+Custom domain: evasvision.cz (registered at Active24, DNS at Active24: four A records 185.199.108–111.153 for the apex, CNAME www → evasvision.github.io; mail records MX/TXT/mail.* untouched; the Active24 Web auto-config must stay off). The `CNAME` file is managed by GitHub Pages settings — do not delete it. Enforce HTTPS is set in Settings → Pages once the certificate is issued. evasvision.github.io redirects to the domain.
+
 GitHub Pages: the repository `evasvision/evasvision.github.io` is published by GitHub Pages directly from the root of `main` (Deploy from a branch; `.nojekyll` disables Jekyll). The original export kept the site in `dist/`; it was moved to the root for Pages. EXPORT.json paths still use the `dist/` prefix. All asset paths are relative, so the site works from the domain root. The initial GitHub upload flattened files and lost the Clay Court Summer `portrait` and `overhead` images (name collision with Soft Structure); the owner re-supplied them at 1493×2000, so their checksums no longer match EXPORT.json.
