@@ -43,7 +43,7 @@ Portfolio tabs (owner request): there is no "Vše/All" button. Three tabs — Pr
 
 ## Pricing (Kč)
 
-Individual services: associative photo 450; hero/model photo 750; video up to 15 s 1,850; up to 30 s 2,750; up to 60 s 3,900. Also individual only (not in packages): AI voiceover up to 10 s 450, up to 20 s 650 (synthetic AI voice, any language, no imitation of real people's voices), consultation with Eva as an AI creator 1,500 per hour (`unitSuffixHour`); explained in the `audioTitle`/`audioBody` FAQ. Carousels were removed from the offer at the owner's request (no carousel unit price, package item or FAQ).
+Individual services: associative photo 450; hero/model photo 750; video up to 15 s 1,850; up to 30 s 2,750; up to 60 s 3,900. Also individual only (not in packages): AI voiceover up to 10 s 450, up to 20 s 650 (synthetic AI voice, any language, no imitation of real people's voices), consultation with Eva as an AI creator 1,500 per hour (`unitSuffixHour`); explained in two separate FAQs, `audioTitle`/`audioBody` and `consultTitle`/`consultBody` (the owner noted the two services are unrelated). Carousels were removed from the offer at the owner's request (no carousel unit price, package item or FAQ).
 
 Monthly packages (names and contents chosen with the owner; she asked for more hero/model photos in each package):
 
