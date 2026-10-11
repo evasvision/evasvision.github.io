@@ -20,7 +20,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. Gallery cards link to native details elements. Lightbox is a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration. Image links fall back to opening the full-resolution image if the lightbox is unavailable.
 
-Six gallery projects exist:
+Seven gallery projects exist:
 
 1. `clay-court-summer` (Fashion): Clay Court Summer, independently conceived AI editorial inspired by Alo Yoga, made with Nano Banana. Description from the owner's supplied info.md. Cover is the portrait with a tennis racket, then fabric close-up and playful overhead shot. All 3 photos are included.
 2. `soft-structure` (Product and Fashion): cream bag with chocolate-brown tailoring. Soft Structure is a working title assigned during upload; no brand or tool has been confirmed. Cover is the portrait in the mountain landscape, then product in motion and overhead view on stone steps. All 3 photos are included.
@@ -29,6 +29,7 @@ Six gallery projects exist:
 4. `lime-shot` (Product & Beauty): eye booster series inspired by celimax Retinal Shot, photos supplied by the owner. Lime Shot is a working title assigned during upload; no tool has been confirmed. Cover is the beauty portrait with two tubes, then the street shot (white pumps visible, disclosure also covers other depicted brands), then the tentacle product still life. All 3 photos are included; the street photo is 1120×1500, the others 1493×2000.
 5. `daisy-meadow` (Fashion): kidswear editorial in a daisy meadow, photos supplied by the owner. Daisy Meadow is a working title assigned during upload; no brand or tool has been confirmed. Cover is the smiling portrait looking back, then the bouquet with straw hat, then the embroidered cardigan detail. All 3 photos are included (1493×2000).
 6. `sky-and-sand` (Product & Beauty): sunscreen series inspired by Beauty of Joseon Relief Sun, photos supplied by the owner. Sky & Sand is a working title assigned during upload; no tool has been confirmed. Cover is the freckled beauty portrait with the tube, then the tube on sand, then the cream texture shot. All 3 photos are included (1493×2000).
+7. `honey-drip` (Product & Beauty): hair mask series inspired by Gisou Honey Gloss, photos supplied by the owner. Honey Drip is a working title assigned during upload; no tool has been confirmed. Cover is the jar on ice cream with honey drip, then the jar in a clear bag with honeycomb, then the layered hearts with arrows. All 3 photos are included (1493×2000).
 
 `data-category` can contain multiple space-separated categories. Keep filtering compatible with this. Upload video as H.264 MP4 with `+faststart`.
 
