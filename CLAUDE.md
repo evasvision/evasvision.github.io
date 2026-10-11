@@ -10,7 +10,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 ## Brand
 
-- Eva’s Vision, Prague; Instagram: https://www.instagram.com/evas_vision/ (current site contact).
+- Eva’s Vision, Prague; Instagram: https://www.instagram.com/evas_vision/; e-mail evaralka25@seznam.cz (owner asked to show her e-mail; mailto link with a language-specific subject, `data-mail`); IČO 29955084 (contact list and footer).
 - Minimal editorial aesthetic with cream #fbf5ef, chocolate #51372d, blush #bd8e83 and line #d9c9bd.
 - Headings: Instrument Serif. Body: Manrope. Fonts are served locally.
 - Large section titles (h1/h2) have no trailing periods (owner request); mid-title sentence breaks use `<br>`.
