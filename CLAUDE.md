@@ -15,6 +15,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 - Headings: Instrument Serif. Body: Manrope. Fonts are served locally.
 - Realistic blush-cosmos flower asset for rounded call-to-action buttons and click particles.
 - Preserve responsive layouts, keyboard focus styles, lazy loading and prefers-reduced-motion behavior.
+- Living background (owner request): a fixed `.ambient` layer behind all content with four slowly drifting blush/cream radial-gradient blobs (CSS keyframes, no `filter: blur` — it dropped software rendering to ~13 fps) and a `#ambient-dust` canvas of rising, twinkling particles (≤60, DPR capped at 2, paused when the tab is hidden). Under prefers-reduced-motion the blobs are static and the canvas is hidden.
 
 ## Existing functionality
 
