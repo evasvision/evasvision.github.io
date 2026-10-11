@@ -63,6 +63,8 @@ PŘÍBĚH is visually recommended. Preserve these prices and quantities unless t
 
 Owner-supplied facts for the About section: Eva is 25, an AI creator in Prague and a curator of the Czech AI course "AI New Era"; she values realism and avoiding generic "AI slop". The copy is a hook-led lead (`aboutLead`), two body paragraphs, a punch line and three fact chips. Do not add other achievements.
 
+Privacy note (`l4`/`l4d` in AI & Transparency) was rewritten in plain language for GitHub Pages hosting: no trackers, only the language choice stored locally, GitHub Pages may log technical data such as IP, e-mail/Instagram details used only to reply.
+
 ## Content constraints
 
 The owner wants AI disclosure and independent concepts presented accurately. Preserve current AI labels and AI & Transparency copy. Do not imply that the featured brands commissioned, sponsored or endorsed the concepts. Do not invent client names, client relationships, outcomes, testimonials, portfolio tools or creator achievements. Preserve supplied images and their proportions.
