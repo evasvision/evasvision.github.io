@@ -49,19 +49,25 @@ Portfolio tabs (owner request): there is no "Vše/All" button. Three tabs — Pr
 
 ## Pricing (Kč)
 
-Individual services: associative photo 450; hero/model photo 750; video up to 15 s 1,850; up to 30 s 2,750; up to 60 s 3,900. Also individual only (not in packages): AI voiceover up to 10 s 450, up to 20 s 650 (synthetic AI voice, any language, no imitation of real people's voices), consultation 1,500 per hour — mentoring for beginner AI creators (where to start, which programs, workflow), not a brand consultation (`unitSuffixHour`); explained in two separate FAQs, `audioTitle`/`audioBody` and `consultTitle`/`consultBody` (the owner noted the two services are unrelated). Carousels were removed from the offer at the owner's request (no carousel unit price, package item or FAQ).
+Updated 2026-11-03 at the owner's request. The authoritative pricing copy is the last `Object.assign(copy.cs/en, …)` block before `setLanguage` (it overrides older pricing keys still present in earlier blocks) plus the static `#pricing` HTML.
 
-Monthly packages (names and contents chosen with the owner; she asked for more hero/model photos in each package):
+Individual services: associative photo 550; hero/model photo 950; video up to 10 s 1,690; up to 15 s 2,290; up to 30 s 3,590; up to 60 s 5,490; AI voiceover up to 10 s 490, up to 20 s 790; consultation 1,800 per hour (mentoring for beginner AI creators); extra revision photo 250, video 600. Unit rows use keys `uPhotoA`, `uPhotoH` (+ `…Hint`), `uV10`–`uV60`, `uVo10`, `uVo20`, `uRevPhoto`, `uRevVideo`, `unit7`.
+
+PILOT (one-off, first collaboration only): 3 associative + 2 hero/model + 1 video up to 10 s = 3,790 (individually 5,240, save 1,450, 28%). Shown as `.pilot-card` above the packages.
+
+Monthly packages (every package mixes photos and video; RÁMEC = photo focus, POHYB = video focus, same price):
 
 | Package | Price | Contents | Individual total | Saving |
 | --- | ---: | --- | ---: | ---: |
-| ZÁBLESK | 6,950 | 8 associative photos + 3 hero/model photos + 1 video up to 15 s | 7,700 | 750 (9.7%) |
-| RÁMEC | 8,600 | 12 associative photos + 6 hero/model photos | 9,900 | 1,300 (13.1%) |
-| POHYB | 8,900 | 2 videos up to 15 s + 1 video up to 30 s + 1 video up to 60 s | 10,350 | 1,450 (14.0%) |
-| PŘÍBĚH | 13,400 | 15 associative photos + 6 hero/model photos + 1 video up to 15 s + 1 video up to 30 s | 15,850 | 2,450 (15.5%) |
-| VIZE | 22,900 | 25 associative photos + 9 hero/model photos + 2 videos up to 30 s + 1 video up to 60 s | 27,400 | 4,500 (16.4%) |
+| ZÁBLESK | 7,290 | 8 associative + 2 hero/model + 1 video 15 s | 8,590 | 1,300 (15%) |
+| RÁMEC | 11,190 | 12 associative + 5 hero/model + 1 video 15 s | 13,640 | 2,450 (18%) |
+| POHYB | 11,190 | 6 associative + 2 hero/model + 2 videos 15 s + 1 video 30 s + 1 voiceover 10 s | 13,860 | 2,670 (19%) |
+| PŘÍBĚH | 15,690 | 14 associative + 5 hero/model + 2 videos 15 s + 1 video 30 s | 20,620 | 4,930 (24%) |
+| VIZE | 24,690 | 22 associative + 8 hero/model + 2 videos 15 s + 1 video 30 s + 1 video 60 s + 1 voiceover 10 s | 33,850 | 9,160 (27%) |
 
-PŘÍBĚH is visually recommended. Preserve these prices and quantities unless the owner asks for changes. Delivery: up to 2 working days depending on complexity (owner statement; shown in `.pricing-perks`, process step 03 and terms intro). Portfolio note: more work is shown during the first conversation or video call. Existing terms: two rounds of minor revisions per deliverable; additional photo revisions 180 Kč/item, video 400 Kč/item; extras at individual rates; final scope, price and timing confirmed after consultation. Package item keys follow `package{n}item{k}` with k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s.
+Package bonuses (`.package-bonus`): PŘÍBĚH and VIZE get 3 revision rounds instead of 2 and 10% off extra content; VIZE also a short concept call at the start of the month and priority scheduling. PŘÍBĚH is visually recommended. Package item keys `package{n}item{k}`: k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s, 5 voiceover 10 s.
+
+Referral (owner request): whoever recommends Eva gets 10% off their next order when the referred client starts working with her (`.referral` block + `refFaqTitle`/`refFaqBody`). Delivery up to 2 working days; 2 rounds of minor revisions per deliverable; final scope, price and timing confirmed after consultation. Preserve these prices and quantities unless the owner asks for changes.
 
 ## About copy
 
