@@ -61,11 +61,11 @@ Monthly packages (every package mixes photos and video; RÁMEC = photo focus, PO
 | --- | ---: | --- | ---: | ---: |
 | ZÁBLESK | 7,290 | 8 associative + 2 hero/model + 1 video 15 s | 8,590 | 1,300 (15%) |
 | RÁMEC | 11,190 | 12 associative + 5 hero/model + 1 video 15 s | 13,640 | 2,450 (18%) |
-| POHYB | 12,990 | 6 associative + 2 hero/model + 3 videos 15 s + 1 video 30 s + 1 voiceover 10 s | 16,150 | 3,160 (20%) |
+| POHYB | 12,990 | 7 associative + 2 hero/model + 3 videos 15 s + 1 video 30 s | 16,210 | 3,220 (20%) |
 | PŘÍBĚH | 15,690 | 14 associative + 5 hero/model + 2 videos 15 s + 1 video 30 s | 20,620 | 4,930 (24%) |
-| VIZE | 24,690 | 22 associative + 8 hero/model + 2 videos 15 s + 1 video 30 s + 1 video 60 s + 1 voiceover 10 s | 33,850 | 9,160 (27%) |
+| VIZE | 24,690 | 22 associative + 8 hero/model + 2 videos 15 s + 1 video 30 s + 1 video 60 s | 33,360 | 8,670 (26%) |
 
-Package bonuses (`.package-bonus`): PŘÍBĚH and VIZE get 3 revision rounds instead of 2 and 10% off extra content; VIZE also a short concept call at the start of the month and priority scheduling. PŘÍBĚH is visually recommended. Package item keys `package{n}item{k}`: k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s, 5 voiceover 10 s.
+Package bonuses (`.package-bonus`): PŘÍBĚH and VIZE get 3 revision rounds instead of 2 and 10% off extra content; VIZE also a short concept call at the start of the month and priority scheduling. PŘÍBĚH is visually recommended. Package item keys `package{n}item{k}`: k = 0 associative, 1 hero/model, 2 video 15 s, 3 video 30 s, 4 video 60 s. Packages contain no voiceover (owner request); voiceover is sold individually only.
 
 Referral (owner request): whoever recommends Eva gets 10% off their next order when the referred client starts working with her (`.referral` block + `refFaqTitle`/`refFaqBody`). Delivery up to 2 working days; 2 rounds of minor revisions per deliverable; final scope, price and timing confirmed after consultation. Preserve these prices and quantities unless the owner asks for changes.
 
