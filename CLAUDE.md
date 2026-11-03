@@ -21,7 +21,7 @@ Read `index.html` before editing. New translations are added with `Object.assign
 
 ## Existing functionality
 
-Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. There are no project detail panels (the owner asked to remove them). Each photo project card is an in-card carousel (`.card-carousel` with a scroll-snap `.carousel-track`): swipe on touch, ‹ › buttons and arrow keys, a `1 / n` counter; single-photo projects get no controls. Card text: title, short line and the project meta line (`.card-meta`, includes the brand inspiration). Clicking a slide opens the lightbox, a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration; it shows the project description and brand disclosure (`data-desc`/`data-disc` on the carousel) below the controls. Slide links fall back to opening the full-resolution image if the lightbox is unavailable. Video cards play a muted preview while visible; the play button swaps in the full file (with sound where the source had audio) and shows native controls in the card (`.video-cover.is-active`, `object-fit:contain`). `.section` uses `overflow:clip` so focus or scrollIntoView inside a carousel can never scroll the section sideways.
+The "Different angles / One vision" personal editorial section (eva-2/eva-3 photos) was removed at the owner's request on 2026-11-03. Header navigation; CZ/EN toggle; category filtering; services; pricing; about; collaboration process; Instagram contact; AI transparency; footer. There are no project detail panels (the owner asked to remove them). Each photo project card is an in-card carousel (`.card-carousel` with a scroll-snap `.carousel-track`): swipe on touch, ‹ › buttons and arrow keys, a `1 / n` counter; single-photo projects get no controls. Card text: title, short line and the project meta line (`.card-meta`, includes the brand inspiration). Clicking a slide opens the lightbox, a native dialog with project-scoped previous/next navigation, keyboard arrows, Escape, close button and scroll restoration; it shows the project description and brand disclosure (`data-desc`/`data-disc` on the carousel) below the controls. Slide links fall back to opening the full-resolution image if the lightbox is unavailable. Video cards play a muted preview while visible; the play button swaps in the full file (with sound where the source had audio) and shows native controls in the card (`.video-cover.is-active`, `object-fit:contain`). `.section` uses `overflow:clip` so focus or scrollIntoView inside a carousel can never scroll the section sideways.
 
 Seventeen gallery projects exist:
 
@@ -55,13 +55,13 @@ Individual services: associative photo 550; hero/model photo 950; video up to 10
 
 PILOT (one-off, first collaboration only): 3 associative + 2 hero/model + 1 video up to 10 s = 3,790 (individually 5,240, save 1,450, 28%). Shown as `.pilot-card` above the packages.
 
-Monthly packages (every package mixes photos and video; RÁMEC = photo focus, POHYB = video focus, same price):
+Monthly packages (every package mixes photos and video; RÁMEC = photo focus, POHYB = video focus; POHYB costs more because video takes more work (owner request)):
 
 | Package | Price | Contents | Individual total | Saving |
 | --- | ---: | --- | ---: | ---: |
 | ZÁBLESK | 7,290 | 8 associative + 2 hero/model + 1 video 15 s | 8,590 | 1,300 (15%) |
 | RÁMEC | 11,190 | 12 associative + 5 hero/model + 1 video 15 s | 13,640 | 2,450 (18%) |
-| POHYB | 11,190 | 6 associative + 2 hero/model + 2 videos 15 s + 1 video 30 s + 1 voiceover 10 s | 13,860 | 2,670 (19%) |
+| POHYB | 12,990 | 6 associative + 2 hero/model + 3 videos 15 s + 1 video 30 s + 1 voiceover 10 s | 16,150 | 3,160 (20%) |
 | PŘÍBĚH | 15,690 | 14 associative + 5 hero/model + 2 videos 15 s + 1 video 30 s | 20,620 | 4,930 (24%) |
 | VIZE | 24,690 | 22 associative + 8 hero/model + 2 videos 15 s + 1 video 30 s + 1 video 60 s + 1 voiceover 10 s | 33,850 | 9,160 (27%) |
 
