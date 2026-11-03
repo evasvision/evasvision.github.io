@@ -51,7 +51,7 @@ Portfolio tabs (owner request): there is no "Vše/All" button. Three tabs — Pr
 
 Updated 2026-11-03 at the owner's request. The authoritative pricing copy is the last `Object.assign(copy.cs/en, …)` block before `setLanguage` (it overrides older pricing keys still present in earlier blocks) plus the static `#pricing` HTML.
 
-Individual services: associative photo 550; hero/model photo 950; video up to 10 s 1,690; up to 15 s 2,290; up to 30 s 3,590; up to 60 s 5,490; AI voiceover up to 10 s 490, up to 20 s 790; consultation 1,800 per hour (mentoring for beginner AI creators); extra revision photo 250, video 600. Unit rows use keys `uPhotoA`, `uPhotoH` (+ `…Hint`), `uV10`–`uV60`, `uVo10`, `uVo20`, `uRevPhoto`, `uRevVideo`, `unit7`.
+Individual services: associative photo 550; hero/model photo 950; video up to 10 s 1,690; up to 15 s 2,290; up to 30 s 3,590; up to 60 s 5,490; AI voiceover up to 10 s 490, up to 20 s 790; consultation 1,800 per hour (mentoring for beginner AI creators); extra revision photo 250, video 600. Individual services are shown as four grouped cards (`.unit-pricing.grouped` > `.unit-groups` > `.unit-card`, owner request for easy scanning): Fotografie (`grpPhoto`), Video (`grpVideo`), Hlas a konzultace (`grpVoice`), Úpravy navíc (`grpRev`); row keys `rowPhotoA`, `rowPhotoH` (hints `uPhotoAHint`/`uPhotoHHint`), `rowV10`–`rowV60`, `rowVo10`, `rowVo20`, `rowConsult` (+`rowConsultHint`), `rowRevPhoto`, `rowRevVideo`. 4 columns desktop, 2 under 1100px, 1 under 600px.
 
 PILOT (one-off, first collaboration only): 3 associative + 2 hero/model + 1 video up to 10 s = 3,790 (individually 5,240, save 1,450, 28%). Shown as `.pilot-card` above the packages.
 
