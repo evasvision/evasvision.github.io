@@ -55,6 +55,8 @@ Individual services: associative photo 550; hero/model photo 950; video up to 10
 
 PILOT (one-off, first collaboration only): 3 associative + 2 hero/model + 1 video up to 10 s = 3,790 (individually 5,240, save 1,450, 28%). Shown as `.pilot-card` above the packages.
 
+One-off projects (`.oneoff-grid`, placed between the monthly packages and the individual services, owner request 2026-11-03): AI fotofocení for private clients — the client sends a photo, Eva creates 10 AI photos featuring them in any style/setting, 2,490 Kč (`shoot*` keys, FAQ `shootFaqTitle`/`shootFaqBody` states the images are AI-generated); AI animovaný příběh (AI cartoon) on any theme — up to 30 s 4,490, up to 60 s 6,990, characters and story included, voiceover extra (`cartoon*` keys).
+
 Monthly packages (every package mixes photos and video; RÁMEC = photo focus, POHYB = video focus; POHYB costs more because video takes more work (owner request)):
 
 | Package | Price | Contents | Individual total | Saving |
