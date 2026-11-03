@@ -75,6 +75,8 @@ Package bonuses (`.package-bonus`): PŘÍBĚH and VIZE get 3 revision rounds ins
 
 Referral (owner request): whoever recommends Eva gets 10% off their next order when the referred client starts working with her (`.referral` block + `refFaqTitle`/`refFaqBody`). Delivery up to 2 working days; 2 rounds of minor revisions per deliverable; final scope, price and timing confirmed after consultation. Preserve these prices and quantities unless the owner asks for changes.
 
+Hero photo (replaced 2026-11-03 with an owner-supplied portrait in a cream blazer): `assets/eva-hero.jpg` (1536×2048) + `eva-hero-small.jpg` (768 w) via srcset, shown in the 4:5 `.hero-photo` frame with object-fit cover; the previous `eva-4.jpg` is no longer referenced.
+
 ## About copy
 
 Owner-supplied facts for the About section: Eva is 25, an AI creator in Prague and a curator of the Czech AI course "AI New Era"; she values realism and avoiding generic "AI slop". The copy is a hook-led lead (`aboutLead`), two body paragraphs, a punch line and three fact chips. Do not add other achievements.
